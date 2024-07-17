@@ -55,20 +55,5 @@ input[type="submit"]:hover {
 }
 </style>
 </head>
-<body>
-	<div class="container">
-		<h2>Create a New Post</h2>
-		<form action="${pageContext.request.contextPath}/createPost"
-			method="post" enctype="multipart/form-data">
-			<label for="title">Title:</label> <input type="text" name="title"
-				id="title" required><br>
-			<br> <label for="content">Content:</label>
-			<textarea name="content" id="content" rows="5" required></textarea>
-			<br>
-			<br> <label for="file">Upload Image/Video:</label> <input
-				type="file" name="file" id="file" required><br>
-			<br> <input type="submit" value="Create Post">
-		</form>
-	</div>
-</body>
+
 </html>
