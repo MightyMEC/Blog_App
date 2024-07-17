@@ -4,9 +4,9 @@
     <title>Post Detail</title>
     <style>
         body {
-            background: linear-gradient(to right, #ff9966, #ff5e62);
-            font-family: Arial, sans-serif;
-            color: #333;
+            background: linear-gradient(to right, #4e54c8, #8f94fb); /* New gradient background */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
             margin: 0;
             padding: 0;
             display: flex;
@@ -15,27 +15,30 @@
             height: 100vh;
         }
         .post-container {
-            background: #fff;
-            padding: 20px;
+            background: #2a2a72; /* Darker background */
+            padding: 30px;
             width: 600px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
             margin-top: 50px;
+            color: #fff;
         }
         h1 {
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+            color: #fff;
         }
         p {
             font-size: 18px;
-            line-height: 1.6;
+            line-height: 1.8;
+            color: #ccc;
         }
         img {
             display: block;
             margin: 20px auto;
             max-width: 100%;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
