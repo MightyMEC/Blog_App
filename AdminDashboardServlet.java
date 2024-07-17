@@ -29,7 +29,7 @@ public class AdminDashboardServlet extends HttpServlet {
 	                rs.getString("file_name")
 	            );
 	            posts.add(post);
-	            System.out.println("Post retrieved: " + post.getTitle()); 
+	            System.out.println("Post retrieved:  " + post.getTitle()); 
 	        }
 	    } catch (SQLException e) {
 	        e.printStackTrace();
