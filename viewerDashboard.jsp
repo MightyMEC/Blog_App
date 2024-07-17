@@ -5,9 +5,9 @@
     <title>Viewer Dashboard</title>
     <style>
         body {
-            background: linear-gradient(to right, #ff9966, #ff5e62);
-            font-family: Arial, sans-serif;
-            color: #333;
+            background: linear-gradient(to right, #4e54c8, #8f94fb); 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
             margin: 0;
             padding: 0;
             display: flex;
@@ -17,17 +17,24 @@
         }
         h1 {
             margin-top: 50px;
+            color: #fff;
         }
         form {
             margin-top: 20px;
         }
         input[type="text"],
         input[type="submit"] {
-            padding: 10px;
+            padding: 12px;
             margin-right: 10px;
             border: none;
-            border-radius: 4px;
+            border-radius: 5px;
             box-sizing: border-box;
+            font-size: 16px;
+        }
+        input[type="text"] {
+            width: 250px;
+            background-color: #f9f9f9;
+            color: #333;
         }
         input[type="submit"] {
             background-color: #4CAF50;
@@ -40,19 +47,22 @@
         }
         h2 {
             margin-top: 30px;
+            color: #fff;
         }
         table {
             width: 80%;
             border-collapse: collapse;
             margin-top: 20px;
+            color: #333;
         }
         th, td {
-            padding: 10px;
+            padding: 15px;
             text-align: left;
             border-bottom: 1px solid #ddd;
         }
         th {
             background-color: #f2f2f2;
+            color: #333;
         }
         td {
             background-color: #fff;
@@ -66,6 +76,7 @@
         }
         .empty-message {
             margin-top: 20px;
+            color: #ccc;
         }
     </style>
 </head>
@@ -76,7 +87,7 @@
         <input type="submit" value="Search">
     </form>
     <h2>All Posts</h2>
-    <table border="1">
+    <table>
         <tr>
             <th>ID</th>
             <th>Title</th>
