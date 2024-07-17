@@ -4,9 +4,9 @@
     <title>Register</title>
     <style>
         body {
-            background: linear-gradient(to right, #ff9966, #ff5e62);
-            font-family: Arial, sans-serif;
-            color: #333;
+            background: linear-gradient(to right, #4e54c8, #8f94fb); 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
             margin: 0;
             padding: 0;
             display: flex;
@@ -15,15 +15,17 @@
             height: 100vh;
         }
         .register-container {
-            background: #fff;
-            padding: 20px;
+            background: #2a2a72; 
+            padding: 40px;
             width: 400px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
             text-align: center;
+            color: #fff;
         }
         h1 {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            color: #fff;
         }
         form {
             display: flex;
@@ -31,32 +33,44 @@
             align-items: center;
         }
         label {
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             font-weight: bold;
+            color: #ddd;
         }
         input[type="text"],
         input[type="email"],
         input[type="password"],
         select {
             width: 100%;
-            padding: 8px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
             box-sizing: border-box;
+            font-size: 16px;
+            background-color: #fff;
+            color: #333;
+        }
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus,
+        select:focus {
+            border: 2px solid #4e54c8;
+            outline: none;
         }
         input[type="submit"] {
-            width: 50%;
-            padding: 10px;
-            background-color: #4CAF50;
+            width: 100%;
+            padding: 15px;
+            background-color: #4e54c8; 
             color: white;
             border: none;
-            border-radius: 4px;
+            border-radius: 5px;
             cursor: pointer;
+            font-size: 18px;
             transition: background-color 0.3s ease;
         }
         input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: #2a2a72; 
         }
     </style>
 </head>
