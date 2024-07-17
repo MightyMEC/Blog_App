@@ -25,7 +25,7 @@
         input[type="text"],
         input[type="submit"] {
             padding: 12px;
-            margin-right: 10px;
+            margin-right: 11px;
             border: none;
             border-radius: 5px;
             box-sizing: border-box;
