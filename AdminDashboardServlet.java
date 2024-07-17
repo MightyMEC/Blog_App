@@ -29,13 +29,13 @@ public class AdminDashboardServlet extends HttpServlet {
 	                rs.getString("file_name")
 	            );
 	            posts.add(post);
-	            System.out.println("Post retrieved: " + post.getTitle()); // Debugging line
+	            System.out.println("Post retrieved: " + post.getTitle()); 
 	        }
 	    } catch (SQLException e) {
 	        e.printStackTrace();
 	    }
 
-	    System.out.println("Number of posts retrieved: " + posts.size()); // Debugging line
+	    System.out.println("Number of posts retrieved: " + posts.size()); 
 	    request.setAttribute("posts", posts);
 	    request.getRequestDispatcher("adminDashboard.jsp").forward(request, response);
 	}
